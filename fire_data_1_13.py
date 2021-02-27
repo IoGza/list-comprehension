@@ -7,13 +7,11 @@ outfile = open("readable_fire_data_9_1.json", "w")
 
 fire_data = json.load(infile)
 
-# json.dump(fire_data, outfile, indent=4)
 
 list_of_fires = []
 
 list_of_fires = fire_data
 
-# print(list_of_fires[0]["latitude"])
 
 
 brightness, lats, longs = [], [], []
