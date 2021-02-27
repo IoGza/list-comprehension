@@ -48,7 +48,6 @@ data = [
     }
 ]
 
-# data = [Scattergeo(lon=longs, lat=latds,)]
 
 my_layout = Layout(title="US Fires - 9/1/2020 through 9/13/2020")
 
